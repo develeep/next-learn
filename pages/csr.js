@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import Link from 'next/link';
-export default function(){
+export default function Csr(){
   const [topics, setTopics] = useState([]);
   async function loadData(){
     const URL = 'https://jsonplaceholder.typicode.com/posts';
