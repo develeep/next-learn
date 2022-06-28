@@ -1,3 +1,7 @@
+import useRouter from 'next/router'
+
 export default function Topic(){
-  return <>/sub/[id].js</>
+  const router = useRouter();
+  const id = router.query.id;
+  return <>/sub/{id}.js</>
 }
